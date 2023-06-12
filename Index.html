@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" defer src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Awesome-book-library</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <h4>Book List</h4>
+          <ul>
+            <li><a href="#" id="list-link">List</a></li>
+            <li><a href="#" id="book-link">Add Book</a></li>
+            <li><a href="#" id="contact-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <section id="date">
+  
+      </section>
+      <main>
+  
+        <section id="book-container">
+          <h1 class="textBook">Book-storage</h1>
+          <div id="book-list">
+            
+          </div>
+        </section>
+    
+        <section id="form-section" class="hidden">
+          <h1 class="textBooking">Add Book</h1>
+          <form id="book-form" method="post">
+            <div class="nameInput">
+              <input type="text" required maxlength="500" placeholder="Title" id="title">
+            </div>
+      
+            <div class="nameInput">
+              <input type="text" required maxlength="500" placeholder="Author" id="author">
+            </div>
+      
+            <button type="submit" value="add book" class="btn">Add book</button>
+          </form>
+        </section>
+  
+        <section id="contact-section" class="hidden">
+          <p>Do you have any questions or do you just want to say "Hello"?</p>
+          <p>You can reach out to us.</p>
+          <div id="details">
+           
+            <div class="devs" id="tchisanga">
+              <a href="https://github.com/tchasinga" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <p>Tchisanga</p>
+                <p>Email: tchisanga@email.com</p>
+              </a> 
+            </div>
+          </div>
+        </section>
+  
+      </main>
+  
+      <footer>
+        <p>Copyright <span>@2023</span> product given as book-list to manage a personal data..</p>
+      </footer>
+  
+</body>
+</html>
