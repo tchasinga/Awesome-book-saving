@@ -1,4 +1,4 @@
-import Store from './Store';
+import Store from './Store.js';
 
 class UI {
   static displayBooks() {
@@ -23,5 +23,4 @@ class UI {
     }
   }
 }
-
 export default UI;
