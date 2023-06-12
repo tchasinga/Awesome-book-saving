@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "luxon": "^3.3.0"
+    "@hint/utils-network": "^1.0.25",
+    "luxon": "^3.3.0",
+    "node-fetch": "^2.6.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
